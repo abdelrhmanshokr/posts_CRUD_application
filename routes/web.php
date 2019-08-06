@@ -14,19 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-/*
-Route::get('/hii',function(){
-    echo'hiii';
-});
 
-Route::get('/about',function(){
-    return view('pages/about');
-});
-
-// this is a dynamic route or URL
-Route::get('/user/{id}/{name}',function($id,$name){
-    return 'this is user'.$id.$name;
-});*/
 
 Route::get('/index','PagesController@index');
 
